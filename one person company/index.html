@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synap — AI 1인 기업 자동화 OS</title>
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Decorative Glows -->
+    <div class="glow-bg bg-glow-1"></div>
+    <div class="glow-bg bg-glow-2"></div>
+    <div class="glow-bg bg-glow-3"></div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <img src="synap_logo.png" alt="Synap Logo" class="logo-img">
+                <span class="logo-text">Synap</span>
+            </div>
+            <nav>
+                <a href="#about" class="nav-link">소개</a>
+                <a href="#agents" class="nav-link">AI 에이전트</a>
+                <a href="#simulator" class="nav-link">실시간 협업</a>
+                <a href="#products" class="nav-link">서비스 키트</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="https://github.com/jho254922-cpu/connect-ai" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-premium">
+                    <span class="pulse-dot"></span> Powered by Synap OS
+                </div>
+                <h1>아이디어와 AI를 연결하여<br><span class="gradient-text">1인 기업을 자동화</span>하다</h1>
+                <p class="hero-subtitle">
+                    시냅스(Synapse)처럼 유기적으로 흐르는 7명의 AI 에이전트 협업 시스템. 반복 업무는 에이전트에게 맡기고, 당신은 궁극의 비즈니스 확장과 창의성에만 집중하세요.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#simulator" class="btn btn-primary btn-glow">협업 시뮬레이션 시작</a>
+                    <a href="#agents" class="btn btn-secondary">에이전트 라인업 보기</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">7</span>
+                        <span class="stat-label">전문 AI 에이전트</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">즉시 가동 서비스</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">무중단 자동화</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card hero-preview-card">
+                    <div class="card-header-bar">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="card-title">Synap Core System.sys</span>
+                    </div>
+                    <div class="preview-inner">
+                        <div class="visual-nodes">
+                            <div class="center-node pulse-glow">
+                                <img src="synap_logo.png" alt="Synap Central" class="visual-logo">
+                            </div>
+                            <!-- Orbiting Agent Nodes -->
+                            <div class="agent-node node-ceo" data-agent="ceo" title="CEO"><i class="fas fa-compass"></i></div>
+                            <div class="agent-node node-dev" data-agent="developer" title="Developer"><i class="fas fa-code"></i></div>
+                            <div class="agent-node node-design" data-agent="designer" title="Designer"><i class="fas fa-paint-brush"></i></div>
+                            <div class="agent-node node-biz" data-agent="business" title="Business"><i class="fas fa-briefcase"></i></div>
+                            <div class="agent-node node-yt" data-agent="youtube" title="YouTube"><i class="fab fa-youtube"></i></div>
+                            <div class="agent-node node-insta" data-agent="instagram" title="Instagram"><i class="fab fa-instagram"></i></div>
+                            <div class="agent-node node-writer" data-agent="writer" title="Writer"><i class="fas fa-pen-nib"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Agents Lineup Section -->
+    <section class="agents-section" id="agents">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>7명의 정예 <span class="gradient-text">AI 스페셜리스트</span></h2>
+                <p class="section-subtitle">각 분야의 최고 전문가로 튜닝된 에이전트들이 당신의 1인 기업 안에서 상호 연동되어 업무를 수행합니다.</p>
+            </div>
+            <div class="agents-grid">
+                <!-- CEO Card -->
+                <div class="glass-card agent-card" style="--glow-color: 280, 80%, 60%">
+                    <div class="agent-badge text-glow-ceo"><i class="fas fa-compass"></i> 🧭 CEO</div>
+                    <h3>Chief Executive Agent</h3>
+                    <p class="agent-desc">오케스트레이션, 작업 분해, 종합 판단 및 에이전트 회의를 총괄하며 최종 의사결정을 수립합니다.</p>
+                    <ul class="agent-skills">
+                        <li>태스크 분해</li>
+                        <li>회의 오케스트레이션</li>
+                        <li>종합 보고서 검수</li>
+                    </ul>
+                </div>
+                <!-- Developer Card -->
+                <div class="glass-card agent-card" style="--glow-color: 190, 80%, 60%">
+                    <div class="agent-badge text-glow-dev"><i class="fas fa-code"></i> 💻 코다리</div>
+                    <h3>Senior Fullstack Engineer</h3>
+                    <p class="agent-desc">클린 코드 작성, 미니 서비스 구축, API 통합 및 템플릿 주입 등 모든 엔지니어링 실무를 책임집니다.</p>
+                    <ul class="agent-skills">
+                        <li>SaaS 랜딩 페이지</li>
+                        <li>PayPal 결제 게이트웨이</li>
+                        <li>자동 스크립트 작성</li>
+                    </ul>
+                </div>
+                <!-- Designer Card -->
+                <div class="glass-card agent-card" style="--glow-color: 320, 80%, 60%">
+                    <div class="agent-badge text-glow-design"><i class="fas fa-paint-brush"></i> 🎨 Designer</div>
+                    <h3>Lead Visual Designer</h3>
+                    <p class="agent-desc">브랜드 비주얼 시스템 구축, 썸네일 컨셉 디자인 가이드라인 수립 및 디자인 브리프를 담당합니다.</p>
+                    <ul class="agent-skills">
+                        <li>비주얼 디자인 브리프</li>
+                        <li>컬러/타이포 시스템</li>
+                        <li>웹/콘텐츠 레이아웃</li>
+                    </ul>
+                </div>
+                <!-- Business strategist Card -->
+                <div class="glass-card agent-card" style="--glow-color: 45, 80%, 60%">
+                    <div class="agent-badge text-glow-biz"><i class="fas fa-briefcase"></i> 💼 현빈</div>
+                    <h3>Head of Business</h3>
+                    <p class="agent-desc">수익화 모델 설계, 타깃 고객 정의(ICP), 3단계 가격 책정 전략 수립 등 ROI를 극대화합니다.</p>
+                    <ul class="agent-skills">
+                        <li>수익 다각화 모델</li>
+                        <li>시장/경쟁 가격 전략</li>
+                        <li>비즈니스 ROI 계산</li>
+                    </ul>
+                </div>
+                <!-- YouTube Card -->
+                <div class="glass-card agent-card" style="--glow-color: 0, 80%, 60%">
+                    <div class="agent-badge text-glow-yt"><i class="fab fa-youtube"></i> 📺 레오</div>
+                    <h3>Head of YouTube</h3>
+                    <p class="agent-desc">유튜브 영상 기획서, 후킹 문구 및 오디오 큐시트 작성, 최적 트렌드 키워드를 정밀 분석합니다.</p>
+                    <ul class="agent-skills">
+                        <li>영상 기획 및 썸네일 브리프</li>
+                        <li>구조화된 영상 큐시트</li>
+                        <li>트렌드 해시태그 추출</li>
+                    </ul>
+                </div>
+                <!-- Instagram Card -->
+                <div class="glass-card agent-card" style="--glow-color: 340, 80%, 60%">
+                    <div class="agent-badge text-glow-insta"><i class="fab fa-instagram"></i> 📷 Instagram</div>
+                    <h3>Head of Instagram</h3>
+                    <p class="agent-desc">인스타그램 릴스 및 피드 카드 뉴스 제작 계획 수립, 해시태그 유입 전략을 담당합니다.</p>
+                    <ul class="agent-skills">
+                        <li>릴스 스토리보드</li>
+                        <li>인게이지먼트 극대화</li>
+                        <li>피드 캡션 카피라이팅</li>
+                    </ul>
+                </div>
+                <!-- Writer Card -->
+                <div class="glass-card agent-card" style="--glow-color: 120, 80%, 60%">
+                    <div class="agent-badge text-glow-writer"><i class="fas fa-pen-nib"></i> ✍️ Writer</div>
+                    <h3>Copywriter</h3>
+                    <p class="agent-desc">광고 카피라이팅, 블로그 지식 콘텐츠 시리즈 시리즈 목차 설계 및 메일링 서비스 톤앤매너 조율.</p>
+                    <ul class="agent-skills">
+                        <li>연속 지식 커리큘럼</li>
+                        <li>고객 유도 뉴스레터</li>
+                        <li>고도의 설득 카피</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Simulator Section -->
+    <section class="simulator-section" id="simulator">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>에이전트 <span class="gradient-text">실시간 협업 시뮬레이터</span></h2>
+                <p class="section-subtitle">아이디어가 기업 시스템에 도달했을 때 에이전트들이 어떻게 대화하며 완수하는지 직접 체험해보세요.</p>
+            </div>
+            
+            <div class="simulator-layout">
+                <!-- Control Panel (Left) -->
+                <div class="glass-card sim-control-panel">
+                    <h3>비즈니스 지시 내리기</h3>
+                    <p class="sim-help-text">아래 사전 설정된 시나리오 중 하나를 선택하거나 직접 원하는 비즈니스 명령을 보내 협업 프로세스를 구동해보세요.</p>
+                    
+                    <div class="scenario-buttons">
+                        <button class="btn btn-scenario active" data-scenario="doggie">
+                            <i class="fas fa-dog"></i> 강아지 사주 타로 서비스 개발
+                        </button>
+                        <button class="btn btn-scenario" data-scenario="saas">
+                            <i class="fas fa-rocket"></i> 구독형 AI 랜딩 페이지 빌드
+                        </button>
+                        <button class="btn btn-scenario" data-scenario="youtube">
+                            <i class="fab fa-youtube"></i> 직장인 대상 AI 수익화 영상 제작
+                        </button>
+                    </div>
+
+                    <div class="custom-prompt-container">
+                        <textarea id="custom-prompt-input" placeholder="여기에 나만의 비즈니스 아이디어를 작성해보세요... (예: 30대 직장인용 커리어 추천 챗봇 구축해줘)"></textarea>
+                        <button id="btn-run-custom" class="btn btn-primary btn-block">
+                            <i class="fas fa-play"></i> 맞춤형 협업 시뮬레이션 시작
+                        </button>
+                    </div>
+
+                    <!-- Live State Monitor -->
+                    <div class="state-monitor">
+                        <h4>에이전트 룸 활성 상태</h4>
+                        <div class="monitor-grid">
+                            <div class="monitor-item" data-agent="ceo"><span class="led green"></span> CEO</div>
+                            <div class="monitor-item" data-agent="business"><span class="led"></span> 비즈니스</div>
+                            <div class="monitor-item" data-agent="researcher"><span class="led"></span> 리서처</div>
+                            <div class="monitor-item" data-agent="designer"><span class="led"></span> 디자이너</div>
+                            <div class="monitor-item" data-agent="developer"><span class="led"></span> 개발자</div>
+                            <div class="monitor-item" data-agent="writer"><span class="led"></span> 작가</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Simulation Terminal (Right) -->
+                <div class="glass-card sim-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-title">Synap Collaboration Protocol — Session Active</div>
+                        <div class="terminal-status"><span class="badge-live">LIVE</span></div>
+                    </div>
+                    <div class="terminal-body" id="terminal-content">
+                        <!-- Messages injected by JS -->
+                    </div>
+                    <div class="terminal-footer">
+                        <span class="terminal-prompt">></span> <span class="cursor-line">시뮬레이션을 구동하여 에이전트 간의 연결을 지켜보세요...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Micro-Services Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>즉시 수익화 가능한 <span class="gradient-text">4대 서비스 키트</span></h2>
+                <p class="section-subtitle">Synap의 핵심 개발 에이전트가 완벽히 구축해둔 프리미엄 마이크로 서비스 템플릿입니다.</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Doggie Mystic Astology -->
+                <div class="glass-card product-card">
+                    <div class="product-icon icon-glow-purple"><i class="fas fa-dharmachakra"></i></div>
+                    <h3>강아지 사주 (Astrology AI)</h3>
+                    <p class="product-desc">AI 모델이 강아지의 사주/타로 데이터를 분석해 고유한 성향 보고서를 발행하며, PayPal 연동이 완비된 고수익형 감성 서비스 키트.</p>
+                    <div class="product-meta">
+                        <span><i class="fab fa-js"></i> Vanilla JS</span>
+                        <span><i class="fas fa-shield-alt"></i> PayPal 내장</span>
+                    </div>
+                </div>
+                <!-- Landing Kit (SaaS) -->
+                <div class="glass-card product-card">
+                    <div class="product-icon icon-glow-cyan"><i class="fas fa-layer-group"></i></div>
+                    <h3>Premium Landing Kit (SaaS)</h3>
+                    <p class="product-desc">극도의 전환율을 유도하기 위한 프리미엄 다크 모드 랜딩 페이지. 세련된 애니메이션 요소와 즉각 적용 가능한 API 폼이 완비된 Boilerplate.</p>
+                    <div class="product-meta">
+                        <span><i class="fab fa-css3-alt"></i> HSL CSS</span>
+                        <span><i class="fas fa-bolt"></i> 최적화 전환율</span>
+                    </div>
+                </div>
+                <!-- Chick Game Kit -->
+                <div class="glass-card product-card">
+                    <div class="product-icon icon-glow-pink"><i class="fas fa-gamepad"></i></div>
+                    <h3>병아리 키우기 (Cute AI Game)</h3>
+                    <p class="product-desc">남녀노소 누구나 매료될 수 있는 귀여운 아케이드형 육성 시뮬레이터. 세련된 HTML5 Canvas 렌더링 및 모바일 친화형 인터페이스 설계.</p>
+                    <div class="product-meta">
+                        <span><i class="fas fa-paint-brush"></i> Canvas</span>
+                        <span><i class="fas fa-mobile-alt"></i> 모바일 완벽 대응</span>
+                    </div>
+                </div>
+                <!-- Neon Survivor -->
+                <div class="glass-card product-card">
+                    <div class="product-icon icon-glow-orange"><i class="fas fa-skull-crossbones"></i></div>
+                    <h3>네온 서바이벌 (Action Game + PayPal)</h3>
+                    <p class="product-desc">뱀파이어 서바이벌 류의 화려한 네온 스타일 슈팅 게임. 스테이지 클리어 및 최고 점수 기록 저장, 후원/결제 연동이 결합된 플레이 키트.</p>
+                    <div class="product-meta">
+                        <span><i class="fas fa-music"></i> BGM 동기화</span>
+                        <span><i class="fas fa-credit-card"></i> 결제 모듈</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="logo">
+                    <img src="synap_logo.png" alt="Synap Logo" class="logo-img">
+                    <span class="logo-text">Synap</span>
+                </div>
+                <p class="footer-desc">아이디어와 AI 기술을 연결하여 완성하는 나만의 무중단 1인 기업 OS.</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; 2026 Synap. All rights reserved. Made by pair programming with Antigravity AI.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
